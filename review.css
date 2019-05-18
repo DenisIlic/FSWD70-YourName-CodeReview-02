@@ -1,7 +1,9 @@
 @media screen and (max-width: 480px) {
   .wrapper {
     width: 30%;
-    margin: 0 auto; } }
+    margin: 0 auto; 
+    } 
+}
 .container {
   background-color: #5f1316;
   padding: 30px;
@@ -76,5 +78,10 @@ h1 {
 
 .container7 {
   background-color: #101010; }
+
+.img2{
+    display: flex;
+    justify-content: flex-end;
+}
 
 /*# sourceMappingURL=review.css.map */
