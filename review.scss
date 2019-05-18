@@ -1,0 +1,126 @@
+$pcolor: #131313;
+$bcolor: #5f1316;
+$fsize: 20px;
+$mar: 0;
+$marg: 20px;
+$margi: 20px;
+$padd: 0;
+$padd1: 14px;
+$padd2: 16px;
+$padd3: 20px;
+$padd4: 30px;
+$navcolor: #ffffff;
+$color: #8a8a8a;
+$color1: #c3c3c3;
+$bckground: #dedede;
+$width: 30%;
+$black: #101010; 
+
+
+@media screen and (max-width: 480px){
+.wrapper {
+        width: $width;
+        margin: $mar auto;
+    }  
+}
+    
+
+.container {
+    background-color: $bcolor;
+    padding: $padd4;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img1{
+    padding: $padd3;
+}    
+
+ul {
+    list-style-type: none;
+    margin: $mar;
+    padding: $padd;
+    overflow: hidden;
+    background-color: $pcolor;
+}
+
+li {
+    float: left;
+    font-size: $fsize;
+}
+
+li a {
+    display: block;
+    color: $navcolor;
+    text-align: center;
+    padding: $padd1 $padd2;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: $color;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-end;
+    margin: $marg;   
+}
+
+
+h1{
+    background-color: $bckground;
+    margin: $marg;
+    color: $color;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    margin: $margi;   
+}
+
+
+.container3{
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    margin: $margi;   
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    margin: $margi;
+    
+}
+
+.container6{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: $margi;
+}
+
+.container7 {
+    background-color: $black;   
+}
+    
+
+
+
+   
+
